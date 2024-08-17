@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: lightseagreen;
+    position: absolute;
+    animation-name: car;
+    animation-duration: 7s;
+    animation-delay: 1s;
+    animation-fill-mode:forwards;
+}
+@keyframes car {
+    0%{
+        left: 0px;
+        background-color: lightseagreen;
+    }
+    50%{
+        left: 1000px;
+        border-radius: 500px;
+    }
+    100%{
+        background-color: orange;
+        left:1000px;
+        top: 300px;
+        border-radius: 100px;
+    }
+}
